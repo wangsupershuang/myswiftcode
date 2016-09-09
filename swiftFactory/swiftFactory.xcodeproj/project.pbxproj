@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		349C13AAABF49C42C6C194E2 /* Pods_swiftFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C8115DF63BDEE7AEF47794 /* Pods_swiftFactory.framework */; };
+		7D0C3E311D82D8C100531965 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C3E301D82D8C100531965 /* MainController.swift */; };
 		7D54AE9F1D7FC85600C10E6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D54AE9E1D7FC85600C10E6D /* AppDelegate.swift */; };
 		7D54AEA11D7FC85600C10E6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D54AEA01D7FC85600C10E6D /* ViewController.swift */; };
 		7D54AEA41D7FC85600C10E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D54AEA21D7FC85600C10E6D /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		1509F21873CE7E7B8A3FD3E1 /* Pods-swiftFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftFactory.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftFactory/Pods-swiftFactory.release.xcconfig"; sourceTree = "<group>"; };
+		7D0C3E301D82D8C100531965 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		7D54AE9B1D7FC85600C10E6D /* swiftFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D54AE9E1D7FC85600C10E6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D54AEA01D7FC85600C10E6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				7D54AEA51D7FC85600C10E6D /* Assets.xcassets */,
 				7D54AEA71D7FC85600C10E6D /* LaunchScreen.storyboard */,
 				7D54AEAA1D7FC85600C10E6D /* Info.plist */,
+				7D0C3E301D82D8C100531965 /* MainController.swift */,
 			);
 			path = swiftFactory;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				7D54AE991D7FC85600C10E6D /* Resources */,
 				DC0957B662CD0DD80F0B44FB /* [CP] Embed Pods Frameworks */,
 				D00F3DF924B1F85348EC2484 /* [CP] Copy Pods Resources */,
+				38C0D64A62CB6B540F1902A0 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,6 +283,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		38C0D64A62CB6B540F1902A0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftFactory/Pods-swiftFactory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		82A8C53B1DF050EFA953C212 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D54AEA11D7FC85600C10E6D /* ViewController.swift in Sources */,
+				7D0C3E311D82D8C100531965 /* MainController.swift in Sources */,
 				7D54AE9F1D7FC85600C10E6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
