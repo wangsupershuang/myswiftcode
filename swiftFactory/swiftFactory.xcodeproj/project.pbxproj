@@ -54,6 +54,7 @@
 		7D54AEC01D7FC85600C10E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D8296F41D8813A300A8FD3E /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		84C8115DF63BDEE7AEF47794 /* Pods_swiftFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67A06CA1D8C5B6A00CEC599 /* swfitFactory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = swfitFactory.playground; sourceTree = "<group>"; };
 		F5AAF88F06EC94CB911B777C /* Pods-swiftFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftFactory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftFactory/Pods-swiftFactory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +126,7 @@
 				7D54AEAA1D7FC85600C10E6D /* Info.plist */,
 				7D0C3E301D82D8C100531965 /* MainController.swift */,
 				7D8296F41D8813A300A8FD3E /* Global.swift */,
+				C67A06CA1D8C5B6A00CEC599 /* swfitFactory.playground */,
 			);
 			path = swiftFactory;
 			sourceTree = "<group>";
