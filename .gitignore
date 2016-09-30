@@ -3,10 +3,9 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## Build generated
-build/
-DerivedData
-Pods/
-*.lock
+*/DerivedData
+*/Pods/
+*/*.lock
 
 ## Various settings
 *.pbxuser
@@ -17,17 +16,17 @@ Pods/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata
-compile_commands.json
-.sonar
-sonar-reports/
+*/xcuserdata
+#compile_commands.json
+#.sonar
+#sonar-reports/
 
 ## Other
-*.xccheckout
-*.moved-aside
-*.xcuserstate
-*.xcscmblueprint
-*.xcscheme
+*/*.xccheckout
+*/*.moved-aside
+*/*.xcuserstate
+*/*.xcscmblueprint
+*/*.xcscheme
 
 ## Obj-C/Swift specific
 *.hmap
